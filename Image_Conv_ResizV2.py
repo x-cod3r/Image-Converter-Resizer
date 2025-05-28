@@ -15,7 +15,7 @@ class ImageConverter:
     def __init__(self, root):
         self.root = root
         self.root.title("Bulk Image Converter")
-        self.root.geometry("655x700") # Consider making this more dynamic or larger if needed
+        self.root.geometry("635x700") # Consider making this more dynamic or larger if needed
         self.root.configure(bg='#f0f0f0')
         
         self.selected_files = []
@@ -172,7 +172,7 @@ class ImageConverter:
         tree_frame.columnconfigure(0, weight=1)
         tree_frame.rowconfigure(0, weight=1) 
         
-        self.file_tree = ttk.Treeview(tree_frame, columns=("size", "format", "target_format"), show="tree headings", height=8) # Set desired number of rows
+        self.file_tree = ttk.Treeview(tree_frame, columns=("size", "format", "target_format"), show="tree headings", height=5) # Set desired number of rows
         self.file_tree.heading("#0", text="File Name")
         self.file_tree.heading("size", text="Size")
         self.file_tree.heading("format", text="Current Format")
