@@ -198,8 +198,3 @@ A big thank you to:
 
 *   🌟 The incredible team behind **Pillow (PIL Fork)** – this project wouldn't be possible without their powerful image processing capabilities.
 *   🐍 The **Python Software Foundation** and the global Python community for creating and maintaining such a versatile language and its extensive libraries like Tkinter.
-*   💡 **(Optional) Specific Libraries/Inspirations:** If you used code from a specific tutorial, an idea from another open-source project, or a particular library that was key, mention it here!
-    *   _Example: "Inspiration for the UI layout from [Project Name/Link]"_
-    *   _Example: "The HEIC handling relies on the excellent `pillow-heif` library."_
-
----
